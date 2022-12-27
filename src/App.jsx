@@ -1,4 +1,4 @@
-import Counter from "./pages/counter"
+// import Counter from "./pages/counter"
 import Users from "./pages/users"
 
 
@@ -9,7 +9,7 @@ function App() {
       <h1>user list</h1>
       <Users />
       <hr className="my-1" />
-      <Counter />
+      {/* <Counter /> */}
     </div>
   )
 }
