@@ -1,4 +1,5 @@
 import Counter from "./pages/counter"
+import ImperativeExanple from "./pages/use-imperative"
 import RefExample from "./pages/use-ref"
 import Users from "./pages/users"
 
@@ -13,6 +14,8 @@ function App() {
       <Counter />
       <hr className="my-1" />
       <RefExample />
+      <hr className="my-1" />
+      <ImperativeExanple />
     </div>
   )
 }
