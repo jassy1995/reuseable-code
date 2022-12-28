@@ -4,6 +4,7 @@ import RefExample from "./pages/use-ref"
 import Users from "./pages/users"
 import ContextExample from "./pages/context"
 import MemoExample from "./pages/use-memo"
+import UseCallBackExample from "./pages/use-callback"
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <ContextExample />
       <hr className="my-1" />
       <MemoExample />
+      <hr className="my-1" />
+      <UseCallBackExample />
     </div>
   )
 }
