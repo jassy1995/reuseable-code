@@ -3,6 +3,7 @@ import ImperativeExanple from "./pages/use-imperative"
 import RefExample from "./pages/use-ref"
 import Users from "./pages/users"
 import ContextExample from "./pages/context"
+import MemoExample from "./pages/use-memo"
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <ImperativeExanple />
       <hr className="my-1" />
       <ContextExample />
+      <hr className="my-1" />
+      <MemoExample />
     </div>
   )
 }
